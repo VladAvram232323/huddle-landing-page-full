@@ -176,7 +176,6 @@ footer p {
 }
 
 .footer__logo {
-  fill: white;
   margin-bottom: 2rem;
 }
 
@@ -209,7 +208,7 @@ footer p {
   align-items: start;
 }
 .info__row .icon {
-  width: 1.6rem;
+  width: 1.8rem;
   height: 1.8rem;
   margin-right: 1rem;
 }
@@ -244,12 +243,10 @@ i:active {
     grid-template-columns: 1fr;
     text-align: center;
   }
-
   .ctn-started {
     width: 40%;
     margin: 0 auto;
   }
-
   .block {
     flex-direction: column;
     padding: 4rem 0;
@@ -263,7 +260,6 @@ i:active {
   .block__img {
     margin-bottom: 2rem;
   }
-
   .cta__block {
     max-width: 70%;
   }
@@ -272,7 +268,6 @@ i:active {
   footer p {
     font-size: 1.8rem;
   }
-
   .info {
     flex-direction: column;
   }
@@ -283,45 +278,45 @@ i:active {
   .info .row a {
     font-size: 1.8rem;
   }
-
   .row-3 {
     align-self: center;
     margin-bottom: 1rem;
   }
-
   .copy {
     font-size: 1.6rem;
     text-align: center;
     padding: 0;
   }
 }
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 57%;
+  }
+  .cta__block {
+    max-width: 80%;
+  }
+}
 @media only screen and (max-width: 458px) {
   .hero {
     background-image: url(/images/bg-hero-mobile.svg);
   }
-
   header .logo {
     width: 14rem;
   }
-
   .main {
     padding: 8rem 0 18rem 0;
   }
-
   .block__img {
     width: 100%;
     padding: 0 1.5rem;
   }
-
   .ctn-try {
     font-size: 1.2rem;
     padding: 0.9rem 3.5rem;
   }
-
   .ctn-started {
     width: 80%;
   }
-
   .cta__block {
     max-width: 100%;
     padding: 3rem 1rem 3rem 1rem;
